@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row menyu-navigatsig">
+                <a href="./index.html" class="logo"><strong>Lyudmyla Gryshchynska</strong></a>
+                <input class="navigation-btn" type="checkbox" id="navigation-btn" />
+                <button class="dark-mode-btn">
+                    <img src="./img/icons/sun.svg" alt="Light mode" class="dark-mode-btn__icon">
+                    <img src="./img/icons/moon.svg" alt="Dark mode" class="dark-mode-btn__icon">
+                </button>
+                <label class="navigation-icon" for="navigation-btn"><span class="categorua"></span></label>
+                <ul class="nav-list navigation" >
+                    <li class="nav-list__item"><a href="./index.html" class="nav-list__link ">Inicio</a></li>
+                    <li class="nav-list__item"><a href="./skills.html" class="nav-list__link">Apresentação</a></li>
+                    <li class="nav-list__item"><a href="./ufcd.html" class="nav-list__link nav-list__link--active">UFCD-Reflexões</a></li>
+                    <li class="nav-list__item"><a href="./agradecimentos.html" class="nav-list__link">Agradecimentos</a></li>
+                    <li class="nav-list__item"><a href="./balanco.html" class="nav-list__link">Balanço</a></li>
+                    <li class="nav-list__item"><a href="./contacts.html" class="nav-list__link">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="section">
+        <div class="container">
+            <div class="project-details">
+
+                <h1 class="title-1">UFCD-0807-Programação COBOL - fundamentos</h1>
+                <div class="project-details__desc">
+                    <h3>Formadora: Célia Maria Pinto Duarte</h3>
+                    
+                    </div>
+                <div>
+                    <div class="project">
+                        <h3 class="project__title">UFCD-0807-Portefólio Reflexivo de Aprendizagens</h3>
+                        <a href=https://drive.google.com/file/d/1KzjHSbfS2Xl3x_walqdpVqSi2UVDydBO/view  target="_blank">
+                            <img src="./img/projects/reflex.png" alt="Project img" class="project__img">
+                            
+                        </a>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+            
+                <div class="project-details__desc">
+                    <p>Trabalhos realizados</p>
+                </div>
+                <div>
+                    <p> 
+                        <div class= "primary-text"><h4>Tarefa 1-2.</h4> </div>
+                     1. Crie um programa em Cobol que receba dados do utilizador para uma ficha de aluno
+                      (nome, idade, os nomes de 3 disciplinas com as suas respetivas notas).<br>
+                        O programa deve em seguida exibir os dados lidos  <br>
+                     2. Calculando a média das notas das disciplinas e apresentando 
+                     o resultado "Aprovado" se a média for superior ou igual a 10 e 
+                     o resultado "Reprovado" se a média for inferior a 10.  <br>
+                     
+                  <a href=https://drive.google.com/file/d/1SkOOjZe0BD8idDKoJ-8M-tAod2b8lTix/view  target="_blank" class="btn-outline">
+                    Tarefa 1. 
+                    
+                      
+                  </a>
+              </div>
+              <br>
+              <br>
+              <div>
+              <p>
+                <div class= "primary-text"><h4>Tarefa 10. " Ficheiros2 - Notas - avaliação contínua" </h4></div>
+                  Codifique o programa Notas-Fich01 em Cobol que permita guardar num ficheiro sequencial as 3 notas de vários alunos.<br>
+                   Deverá ser uma versão semelhante ao programa Notas desenvolvido anteriormente, mas que permita guardar 
+                   os dados em ficheiro e exibir diferentes tipos de listagens.<br>
+
+                  Deve começar por escrever dados no ficheiro, incluindo alunos com notas negativas e depois testar as listagens.<br>
+                  
+                  Deverá criar uma listagem de todos os alunos, uma de alunos aprovados (com média >= 10) e uma de alunos reprovados (com média < 10).<br>
+                     </p>
+                <br>
+               
+                <a href=https://drive.google.com/file/d/1trHfmgXzKaW9MshOAIQSLn5Q3F2Bi2BZ/view   target="_blank" class="btn-outline">
+                      
+                    Tarefa 10.
+                  
+              </a>
+                 </div>
+                 <br>
+                 <br>
+                 <div>
+                    <p> 
+                        <div class= "primary-text"> <h4>Tarefa 11 - Ficheiros3 - Notas - avaliação contínua.</h4></div>
+                     Aplique as alterações necessárias à sua ficha 10, de acordo com as correções sugeridas.<br>
+
+                     Opcionalmente, trabalhe com disciplinas constantes, por exemplo, Inglês, Programação, Matemática.<br>
+                     
+                     Aplique condition-names (88) ao seu programa de modo a poder usar o comando EVALUATE para obter as
+                      classificações qualitativas dos alunos:<br>
+                     Média entre:<br>
+                     1 e 4 - Muito Insuficiente<br>
+                     5 a 9 - Insuficiente<br>
+                     10 a 14 - Suficiente<br>
+                     15-17 - Bom<br>
+                     18-20 Muito Bom<br>
+                     
+                     Usar o EVALUATE também para as avaliações finais:<br>
+                     Média >= 10 - Aprovado<br>
+                     Média < 10 - Reprovado<br>
+                     
+                     O programa deve continuar até o utilizador pedir para sair (opção Sair no menu).<br> 
+                     
+                     Em novas execuções, os novos dados devem ser acrescentados ao programa, 
+                     em vez de criar um novo ficheiro (open extend Notas) <br><br>
+                  <a href=https://drive.google.com/file/d/1_2v7W6D_pgvmgKlvEK_TXhMCftLCLiOZ/view  target="_blank" class="btn-outline">
+                    Tarefa 11.
+                    
+                      
+                  </a>
+              </div>
+              
+              <br>
+        
+           <br>
+
+            </div>
+            
+        </div>
+
+
+    </main>
+    <div class="text-box">
+        <center>  <a href="#" onclick="history.back();return false;" class="btn btn-white btn-animate">Voltar para lista dos UFCDs</a></center>
+    </div>
+    <br>
+    <br>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+               
+                <div class="copyright">
+                    <p>© 2022-2023 - Lyudmyla Gryshchynska - IEFP - Programador de Informatica</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
